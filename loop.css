@@ -1,0 +1,154 @@
+#box{
+	width:850px;
+	
+	background-color:#6FCACF;
+	position:absolute;
+	top:30%;
+	transform:translateY(-30%);
+	
+	left:50%;
+	transform:translateX(-50%);
+}
+
+section,p,div{
+	margin:0;
+	padding:0;
+}
+html{
+	height:100%;
+	background:silver;
+}
+
+
+
+ .screen{
+	height:40px;
+	width:65%;
+	background-color:rgba(0,0,0,0.2);
+	border-radius:3pxx;
+	font-size:17px;
+	line-height:40px;
+	color:white;
+	text-align:right;
+	padding:0 10px;
+	letter-spacing:1px;
+	float:right;
+}
+
+ .select{
+	height:40px;
+	width:30%;
+	background-color:rgba(0,0,0,0.2);
+	border-radius:3pxx;
+	font-size:17px;
+	line-height:40px;
+	color:white;
+	text-align:right;
+	padding:0 10px;
+	letter-spacing:1px;
+	float:left;
+}
+
+
+
+.keys{
+	padding:20px 0;
+	width:250px;
+	float:left;
+	
+}
+
+
+
+.keys span{
+	
+	float:left;
+	width:66px;
+	height:36px;
+	background-color:#52A793;
+	border-radius:3px;
+	color:white;
+	margin:0 7px 11px 0;
+	line-height:36px;
+	text-align:center;
+
+	position:relative;
+	top:0;
+	box-shadow:0 4px rgba(0,0,0,0.2);
+	cursor:default;
+	transition:all 0.2s, ease;	
+}
+.zero{
+	width:85% !important;
+	text-align:center !important;
+}
+
+.resultdiv{
+	margin-top:22px;
+	padding:0;
+				float:left;
+				width:65%;	
+}
+
+.resultdiv section{
+	height:36px;
+	width:100%;
+	background-color:rgba(0,0,0,0.2);
+	border-radius:3pxx;
+	font-size:17px;
+	line-height:40px;
+	color:white;
+	padding:0 10px;
+	letter-spacing:1px;
+	margin:10px 0;
+	border:1px solid black;
+	border-radius:5px;
+	margin-left:10px;
+	background:#8C9646;
+	opacity:.5;
+}
+
+
+.resultdiv section p.result{
+	text-align:right;
+}
+.resultdiv section p.rsname{
+			float:left;	
+			width:100px;
+}
+
+
+
+.resultdivone{
+	margin-top:0 !important;
+}
+
+.clear{
+	clear:both;
+}
+
+
+/* HOVER EFFECTS */
+
+.keys span:hover{
+	background-color:#9c89f6;
+	box-shadow:0 4px #fb54d3;
+	color:white;
+	
+}
+
+
+/*key pressing*/
+
+.keys span:active{
+	box-shadow:0 4px #6b54d3;
+	top:4px;
+	
+}
+
+
+span.active{
+	background-color:#9c89f6;
+	box-shadow:0 4px #fb54d3;
+	color:white;
+}
